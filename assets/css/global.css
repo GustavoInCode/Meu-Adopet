@@ -1,0 +1,35 @@
+@import url(/assets/css/header.css);
+@import url(/assets/css/main.css);
+@import url(/assets/css/footer.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cinza-claro: #444443;
+    --background: #EBD469;
+    --cor-texto-logo: #662E1F;
+}
+
+body {
+    background-color: var(--background);
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn {
+    background-color: var(--cor-texto-logo);
+    padding: 20px;
+    text-align: center;
+}
